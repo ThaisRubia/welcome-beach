@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: block;
+}
+.module.praia {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; /*Precisa desses dois itens para centralizar na página*/
+    text-align: center;
+    position: relative;
+    
+}
+.module.praia-1 {
+    background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+    background-size: cover;
+    
+}
+h1 {
+    color: #926239;
+    font: 50px Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+p {
+    color: #926239;
+    font: 20px Arial,"Helvetica Neue", Helvetica, sans-serif;
+}
+button {
+    color: #926239;
+    font: 18px Arial;
+    margin: 20px 0px 0px;
+    padding: 10px 20px;
+    
+}
