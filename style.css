@@ -4,12 +4,14 @@
 }
 body {
     display: block;
+    height: 100vh;
+    
 }
 .module.praia {
     height: 100vh;
     display: flex;
-    flex-direction: column; 
-    justify-content: center;
+    flex-direction: column; /*Precisa desse item para deixar igual uma coluna*/
+    justify-content: center;/*Precisa desses dois itens para centralizar na página*/
     align-items: center; /*Precisa desses dois itens para centralizar na página*/
     text-align: center;
     position: relative;
@@ -24,15 +26,65 @@ h1 {
     color: #926239;
     font: 50px Arial, "Helvetica Neue", Helvetica, sans-serif;
     
+    
+    
 }
-p {
+.text {
+    line-height: 45px;
+    
+}
+.text1{
     color: #926239;
     font: 20px Arial,"Helvetica Neue", Helvetica, sans-serif;
+
 }
-button {
+
+.efeito {
     color: #926239;
     font: 18px Arial;
+    border: none;
     margin: 20px 0px 0px;
     padding: 10px 20px;
+    background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.text {
+    text-align: center;
+    color: white;
+    font: 17px Arial,"Helvetica Neue", Helvetica, sans-serif;
+    background: #926239;
+    padding: 20px;
+}
+
+.text-2 {
+    text-align: center;
+    color: #926239;
+    font: 17px Arial,"Helvetica Neue", Helvetica, sans-serif;
+    background: #F4F4F4;
+    padding: 20px;
+}
+.conteiner {
+    display: inline-block;
+    width: 33%;
+    font: 17px Arial,"Helvetica Neue", Helvetica, sans-serif;
+    line-height: 25px;
     
+}
+#conteiner-a {
+    color: #FFFFFF;
+    background: #926239;
+    padding: 20px;
+}
+#conteiner-b {
+    color:#926239;
+    background: #f9f9f9; ;
+    padding: 20px;
+    margin-left: -4px;
+}
+#conteiner-c {
+    color: #FFFFFF;
+    background: #926239;
+    padding: 20px;
+    margin-left: -4px;
 }
