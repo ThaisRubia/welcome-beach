@@ -4,7 +4,6 @@
 }
 body {
     display: block;
-    height: 100vh;
     
 }
 .module.praia {
@@ -15,6 +14,8 @@ body {
     align-items: center; /*Precisa desses dois itens para centralizar na página*/
     text-align: center;
     position: relative;
+    padding: 20px;
+   
     
 }
 .module.praia-1 {
@@ -26,13 +27,11 @@ h1 {
     color: #926239;
     font: 50px Arial, "Helvetica Neue", Helvetica, sans-serif;
     
-    
-    
 }
-.text {
-    line-height: 45px;
-    
+p {
+    line-height: 25px;
 }
+
 .text1{
     color: #926239;
     font: 20px Arial,"Helvetica Neue", Helvetica, sans-serif;
@@ -40,14 +39,21 @@ h1 {
 }
 
 .efeito {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #926239;
     color: #926239;
     font: 18px Arial;
-    border: none;
     margin: 20px 0px 0px;
     padding: 10px 20px;
     background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
     cursor: pointer;
     transition: all 400ms ease;
+}
+#button:hover { /*pseudo-classe,elemento quando a pessoa usuária posiciona o mouse sobre ele. */
+    color: #F4F4F4;
+    background: #926239;
+    
 }
 .text {
     text-align: center;
@@ -68,7 +74,6 @@ h1 {
     display: inline-block;
     width: 33%;
     font: 17px Arial,"Helvetica Neue", Helvetica, sans-serif;
-    line-height: 25px;
     
 }
 #conteiner-a {
